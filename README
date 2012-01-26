@@ -1,0 +1,15 @@
+The last straw, that's what it is. 
+There are many things I can deal with in PHP.
+Things that are unsavory, even.
+I cannot handle using the backslash as the namespace separator in PHP code.
+So, I've created this bit of protest code.
+Some may call it clever, some may call it wrong, and some may call it stupid.
+I call it a protest.
+
+<?php
+define('N', "\n");
+print 'AND USE IT!'. \N;
+// IN YOUR PHP CODE
+?>
+
+
